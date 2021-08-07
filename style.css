@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     max-width: 100%;
+    border: solid black;
   }
 
   body {
@@ -20,6 +21,30 @@ header {
     margin-right: 4px;
     float: right;
     font-size: 20px; 
+}
+
+fieldset {
+    display: flex;
+    column-gap: 200px;
+    justify-content: space-evenly;
+    height: 500px;
+    margin-top: 25px;
+    width: 1000em;
+}
+
+#group, #refraction, #first_repo {
+    width: 200px;
+    height: 200px;
+}
+
+#group:hover, #refraction:hover, #first_repo:hover {
+    background: rgb(190, 186, 186);
+}
+
+#group:hover
+
+#work {
+    margin-top: 40px;
 }
 
 #name {
@@ -43,6 +68,7 @@ body h2, p{
 p {
     font-size: 16px;
     margin-top: 20px;
+    line-height: 2;
 }
 
 ul {
@@ -62,6 +88,7 @@ ul {
 
 #contact {
     margin-top: 30px;
+    height: 500px;
 }
 
 #footer {
