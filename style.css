@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    max-width: 100%;
   }
 
   body {
@@ -17,44 +17,70 @@ header {
 
 #navbar {
     padding-top: 15px;
-    margin-right: 400px;
+    margin-right: 4px;
     float: right;
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
 
 #name {
+    margin-left: 390px;
     display: inline-block;
     font-size: 48px;
     text-shadow: 5px 5px 5px black;
 }
 
+body h2 {
+    margin-top: 20px;
+}
+
 body h2, p{
-    width: 50%;
+    width: 78.4%;
     display: inline-block;
     margin-left: 20px;
+    text-align: center;
 }
 
 p {
     font-size: 16px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    max-width: 20%;
+    margin-left: 20px;
 }
 
 #Personal_Photo {
-   
+    margin-right: 4px;
+    padding: 20px;
+    clear: both;
+    float: right;
     width: 20%;
     height: 20%;
+}
+
+#contact {
+    margin-top: 30px;
 }
 
 #footer {
     text-align: center;
     position: fixed;
     padding: 10px 10px 0px 10px;
-    bottom: 0; 
+    bottom: 30px; 
     width: 100%;   
     height: 40px; 
      
 }
 
 a {
-    color: blueviolet;
+    color: rgb(0, 0, 0);
 }
+
+@media only screen and (max-width: 700px) {
+    #Personal_Photo, body{
+      width:100%;
+      height:200px;
+     }
+  }
