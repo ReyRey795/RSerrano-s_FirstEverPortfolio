@@ -1,8 +1,12 @@
 * {
-    background-color: rgb(88, 87, 173);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 2px;
-    padding: 30px;
+    border: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body {
+      background-color: blue;
   }
 
 header {
@@ -14,12 +18,25 @@ header {
 #name {
     display: block;
     text-align: center;
+    text-shadow: 5px 5px 5px black;
 }
 
 #navbar {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+}
+
+body  {
+    text-align: center;
+}
+
+#Personal_Photo {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
 }
