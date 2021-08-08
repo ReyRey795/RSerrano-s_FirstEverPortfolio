@@ -6,9 +6,9 @@
     max-width: 100%;
     border: solid black hidden;
     color: rgb(211, 211, 247);
-  }
+}
 
-  body {
+body {
         background-image: linear-gradient(310deg, rgba(255,0,0,0), rgb(17, 0, 255));
   }
 
@@ -24,7 +24,6 @@ header {
     text-shadow: 5px 5px 5px black;
 }
 
-
 #navbar {
     padding-top: 15px;
     margin-right: 4px;
@@ -39,14 +38,47 @@ header {
     font-size: 20px; 
 }
 
-fieldset {
-    display: flex;
-    column-gap: 200px;
-    justify-content: space-evenly;
-    height: 500px;
-    margin-top: 25px;
-    width: 1000em;
+body h2 {
+    margin-top: 20px;
+}
+
+body h2, p{
+    width: 78.4%;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 2;
     border: solid black;
+}
+
+#group, #refraction, #first_repo {
+    width: 200px;
+    height: 50%;
+    opacity: .5;
+}
+
+#work {
+    margin-top: 40px;
+}
+
+ul {
+    list-style-type: none;
+    max-width: 20%;
+    margin-left: 20px;
+}
+
+#Personal_Photo {
+    margin-right: 4px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 20%;
 }
 
 #group, #refraction, #first_repo {
@@ -68,50 +100,14 @@ fieldset {
     transition: .3s ease;
 }
 
-
-#group, #refraction, #first_repo {
-    width: 200px;
-    height: 50%;
-    opacity: .5;
-}
-
-
-
-#work {
-    margin-top: 40px;
-}
-
-body h2 {
-    margin-top: 20px;
-}
-
-body h2, p{
-    width: 78.4%;
-    display: inline-block;
-    margin-left: 20px;
-    text-align: center;
-}
-
-p {
-    font-size: 16px;
-    margin-top: 20px;
-    line-height: 2;
+fieldset {
+    display: flex;
+    column-gap: 200px;
+    justify-content: space-evenly;
+    height: 500px;
+    margin-top: 25px;
+    width: 1000em;
     border: solid black;
-}
-
-ul {
-    list-style-type: none;
-    max-width: 20%;
-    margin-left: 20px;
-}
-
-#Personal_Photo {
-    margin-right: 4px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 20%;
 }
 
 #contact {
@@ -130,6 +126,7 @@ ul {
     height: 40px; 
      
 }
+
 footer h2, a{
     color: black;
 }
@@ -139,8 +136,8 @@ footer h2, a{
       width:auto;
       height:auto;
      }
-  }
-
+}
+  
 /* Portrait */
 @media only screen 
 
@@ -149,6 +146,7 @@ and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: portrait) { 
     * {
         width: fit-content;
+        height: fit-content;
 
     }
 
@@ -159,7 +157,11 @@ and (orientation: portrait) {
  
 and (max-device-width: 812px) 
 and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: landscape) { 
-    *
+and (orientation: landscape)  { 
+    * {
+        width: fit-content;
+        height: fit-content;
+
+    }
 
 }
