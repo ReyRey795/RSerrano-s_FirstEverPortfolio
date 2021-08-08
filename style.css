@@ -5,6 +5,7 @@
     box-sizing: border-box;
     max-width: 100%;
     border: solid black hidden;
+    color: rgb(211, 211, 247);
   }
 
   body {
@@ -16,10 +17,25 @@ header {
     color: rgb(211, 211, 247);
 }
 
+#name {
+    margin-left: 390px;
+    display: inline-block;
+    font-size: 48px;
+    text-shadow: 5px 5px 5px black;
+}
+
+
 #navbar {
     padding-top: 15px;
     margin-right: 4px;
     float: right;
+    font-size: 20px; 
+}
+
+#left_navbar{
+    padding-top: 15px;
+    margin-left: 4px;
+    float: left;
     font-size: 20px; 
 }
 
@@ -30,6 +46,7 @@ fieldset {
     height: 500px;
     margin-top: 25px;
     width: 1000em;
+    border: solid black;
 }
 
 #group, #refraction, #first_repo {
@@ -38,7 +55,7 @@ fieldset {
 }
 
 #group:hover, #refraction:hover, #first_repo:hover {
-    background: linear-gradient(310deg, rgba(226, 192, 192, 0), rgb(207, 206, 230));
+    background: linear-gradient(310deg, rgba(226, 192, 192, 0), rgb(57, 57, 65));
     opacity: 1;
     position: relative;
     top: 0;
@@ -64,13 +81,6 @@ fieldset {
     margin-top: 40px;
 }
 
-#name {
-    margin-left: 390px;
-    display: inline-block;
-    font-size: 48px;
-    text-shadow: 5px 5px 5px black;
-}
-
 body h2 {
     margin-top: 20px;
 }
@@ -86,6 +96,7 @@ p {
     font-size: 16px;
     margin-top: 20px;
     line-height: 2;
+    border: solid black;
 }
 
 ul {
@@ -106,6 +117,8 @@ ul {
 #contact {
     margin-top: 30px;
     height: 500px;
+    font-size: larger;
+    text-align: left;
 }
 
 #footer {
@@ -117,9 +130,8 @@ ul {
     height: 40px; 
      
 }
-
-a {
-    color: rgb(0, 0, 0);
+footer h2, a{
+    color: black;
 }
 
 @media only screen and (max-width: 700px) {
