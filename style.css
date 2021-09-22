@@ -61,18 +61,18 @@ p {
 }
 
 /*Features all for the fieldset/work container from lines 64 to 97.*/
-#group, #refraction, #first_repo {
+#group, #refraction, #first_repo, #dayPlanner {
     width: 200px;
     height: 50%;
     opacity: .5;
 }
 
-#group, #refraction, #first_repo {
+#group, #refraction, #first_repo, #dayPlanner {
     width: 200px;
     height: 200px;
 }
 
-#group:hover, #refraction:hover, #first_repo:hover {
+#group:hover, #refraction:hover, #first_repo:hover, #dayPlanner:hover {
     background: linear-gradient(310deg, rgba(226, 192, 192, 0), rgb(57, 57, 65));
     opacity: 1;
     position: relative;
