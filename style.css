@@ -39,7 +39,7 @@ header {
     padding-top: 15px;
     margin-left: 4px;
     float: left;
-    font-size: 20px; 
+    font-size: 30px; 
 }
 
 /* Lines 45 to 61 are all specifically for the bio and it's container. */
@@ -55,12 +55,33 @@ body h2, p{
 }
 
 p {
-    font-size: 16px;
+    font-size: 25px;
     margin-top: 20px;
     line-height: 2;
     border: solid black;
 }
-
+p2 {
+    font-size: 25px;
+    margin-top: 20px;
+    line-height: 2;
+    color: black;
+}
+h3 {
+    margin-left: 585px;
+    font-size: 48px;
+}
+work {
+    margin-left: 585px;
+    font-size: 48px;
+}
+career {
+    margin-left: 585px;
+    font-size: 30px;
+}
+operations {
+    margin-left: 585px;
+    font-size: 30px;
+}
 /*Features all for the fieldset/work container from lines 64 to 97.*/
 #group, #refraction, #first_repo, #dayPlanner {
     width: 200px;
